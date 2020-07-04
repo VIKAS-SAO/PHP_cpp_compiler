@@ -1,9 +1,13 @@
-document.getElementById('app_input').textContent=`
-#include<iostream>
-using namespace std;
+window.addEventListener('load',function(){
 
-int main()
-{
-    cout << "Hello World!";
-    return 0;
-}   `;
+    document.getElementById('app_input').innerText=`
+    #include<iostream>
+    using namespace std;
+    
+    int main()
+    {
+        cout << "Hello World!";
+        return 0;
+    }   `;
+})
+
