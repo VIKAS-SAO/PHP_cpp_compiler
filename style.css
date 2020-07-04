@@ -1,0 +1,25 @@
+body{
+    overflow: hidden;
+}
+.parts{
+    padding: 10px;
+    margin:0px;
+}
+.row , form-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+textarea{
+    
+    height: 75vh;
+    width:100%;
+    resize: none;
+
+}
+form{
+    height: 90%;
+    width:100%;
+}
